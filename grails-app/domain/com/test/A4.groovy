@@ -5,6 +5,8 @@ import grails.rest.Resource
 @Resource(uri='/a4s', formats=['json', 'xml'])
 class A4 {
 
+  String name
+
     static constraints = {
     }
 }
